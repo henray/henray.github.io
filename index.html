@@ -1,43 +1,15 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js"> <!--<![endif]-->
-<head>
-
-<!-- Meta-Information -->
-<!-- etc… -->
-
-<!-- Vendor: Bootstrap Stylesheets http://getbootstrap.com -->
-<!-- etc… -->
-
-<!-- Our Website CSS Styles -->
-<link rel="stylesheet" href="css/main.css">
-
-</head>
-<body ng-app="myWebApp">
-<!--[if lt IE 7]>
-<!-- etc… -->
-<![endif]-->
-
-<!-- Our Website Content Goes Here -->
-<div ng-include='"templates/header.html"'></div>
-<div ng-view></div>
-<div ng-include='"templates/footer.html"'></div>
-
-<!-- Vendor: Javascripts -->
-<!-- etc… -->
-<!-- Vendor: Angular, followed by our custom Javascripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.min.js"></script>
-
-
-<!-- Our Website Javascripts -->
-<script src="js/main.js"></script>
-
-</body>
+<html ng-app="myWebApp">
+    <head>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Vendor: Angular, followed by our custom Javascripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.min.js"></script>
+        <!-- Our Website Javascripts -->
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <img class="img-circle" src="images/pongo_mad.jpeg">
+    </body>
 </html>
