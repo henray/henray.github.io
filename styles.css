@@ -5,10 +5,10 @@
 body {
   background-color: #300018;
 }
-.main {
-  width: 100%;
+.center-helper {
+  display: inline-block;
   height: 100%;
-  position: relative;
+  vertical-align: middle;
 }
 .round {
   border-radius: 50%;
@@ -16,10 +16,8 @@ body {
   max-width: 300px;
   max-height: 300px;
 }
-.centered {
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
+.round img {
+  vertical-align: middle;
 }
 .banner {
   background-color: #837B47;

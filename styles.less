@@ -15,28 +15,23 @@ body {
 }
 
 .main {
-    width:100%;
-    height:100%;
-    position: relative
+    
 }
 
-// .center-helper {
-//     display: inline-block;
-//     height: 100%;
-//     vertical-align: middle;
-// }
+.center-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
 
 .round {
     border-radius: 50%;
     overflow: hidden;
     max-width: @circleSize;
     max-height: @circleSize;
-}
-
-.centered {
-    position: absolute;
-    top:50%;
-    transform: translate(0,-50%);
+    img {
+        vertical-align: middle;
+    }
 }
 
 .banner {
