@@ -8,6 +8,7 @@
 html, body {
    background-color: @raspberry;
    height: 100%;
+   width: 100%;
    display: flex;
    justify-content:center;
    align-items:center;
@@ -18,16 +19,31 @@ html, body {
     justify-content:center;
     align-items:center;
     flex-wrap: wrap;
-    min-width:600px;
+    min-width: 600px;
+    max-width: 600px;
 }
 
+.hello {
+    width:100%;
+    font-size: 25px;
+    font-family: "Open Sans";
+    text-align: center;
+    color: @green;
+}
 .round {
     border-radius: 50%;
     border: 10px solid @brown;
     overflow: hidden;
     min-width: @diameter;
     min-height: @diameter;
-    display: block;
+}
+
+.greeting {
+    width:100%;
+    font-family: "Open Sans";
+    font-size: 14px;
+    text-align: center;
+    color: @green;
 }
 
 .banner {
