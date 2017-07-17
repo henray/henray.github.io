@@ -3,35 +3,24 @@
 @olives: #837B47;
 @green: #ADB85F;
 @cream: #E5EDB8;
-@circleSize: 300px;
-
-* {
-    margin: 0;
-    padding: 0;
-}
+@diameter: 300px;
 
 body {
    background-color: @raspberry;
 }
 
 .main {
-    
-}
-
-.center-helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .round {
     border-radius: 50%;
+    border: 1px solid @brown;
     overflow: hidden;
-    max-width: @circleSize;
-    max-height: @circleSize;
-    img {
-        vertical-align: middle;
-    }
+    width: @diameter;
+    height: @diameter;
 }
 
 .banner {

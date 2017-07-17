@@ -1,23 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 body {
   background-color: #300018;
 }
-.center-helper {
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .round {
   border-radius: 50%;
+  border: 1px solid #5A3D31;
   overflow: hidden;
-  max-width: 300px;
-  max-height: 300px;
-}
-.round img {
-  vertical-align: middle;
+  width: 300px;
+  height: 300px;
 }
 .banner {
   background-color: #837B47;
