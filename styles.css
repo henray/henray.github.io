@@ -17,7 +17,7 @@ body {
 }
 .hello {
   width: 100%;
-  font-size: 25px;
+  font-size: 100px;
   font-family: "Open Sans";
   text-align: center;
   color: #ADB85F;
@@ -34,7 +34,7 @@ body {
 .greeting {
   width: 100%;
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 30px;
   text-align: center;
   color: #ADB85F;
 }
