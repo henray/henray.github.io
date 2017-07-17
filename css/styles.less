@@ -1,0 +1,39 @@
+@raspberry: #300018;
+@brown: #5A3D31;
+@olives: #837B47;
+@green: #ADB85F;
+@cream: #E5EDB8;
+@circleSize: 300px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background-color: @raspberry;
+}
+
+.round {
+    border-radius: 50%;
+    overflow: hidden;
+    width: @circleSize;
+    height: @circleSize;
+    img {
+        display: inline-block;
+        min-width: 100%;
+    }
+}
+
+#div-main {
+    position:absolute;
+    width:100%;
+    height:100%;
+    text-align:center;
+}
+
+#span-center {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}

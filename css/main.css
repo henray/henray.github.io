@@ -3,6 +3,10 @@ margin: 0;
 padding: 0;
 }
 
+:root {
+    
+}
+
 #div-main {
     position:absolute;
     width:100%;
