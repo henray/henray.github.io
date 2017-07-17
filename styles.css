@@ -44,5 +44,5 @@ body {
   width: 100%;
   height: 50px;
   margin-top: 10px;
-  border: 5px solid #5A3D31;
+  -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#300018), to(#5A3D31), color-stop(0.5, #5A3D31), color-stop(0.5, #300018)) 21 30 30 21 repeat repeat;
 }
