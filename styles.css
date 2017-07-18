@@ -42,10 +42,15 @@ nav {
   height: 50px;
   margin-top: 10px;
   border-radius: 8px;
+  text-align: center;
 }
 ul {
   list-style-type: none;
 }
 ul li {
   display: inline;
+  color: #ADB85F;
+}
+ul li:hover {
+  color: #E5EDB8;
 }
