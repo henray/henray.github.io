@@ -17,9 +17,6 @@ body {
 }
 .hello {
   width: 100%;
-  font-size: 100px;
-  font-family: "Open Sans";
-  text-align: center;
   color: #ADB85F;
 }
 .round {
