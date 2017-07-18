@@ -30,7 +30,7 @@ body {
 }
 .greeting {
   width: 100%;
-  font-family: "Open Sans";
+  font-family: 'Architects Daughter', cursive;
   font-size: 30px;
   text-align: center;
   margin-top: 10px;
@@ -50,6 +50,7 @@ ul {
 ul li {
   display: inline;
   color: #ADB85F;
+  font-family: 'Cinzel', serif;
 }
 ul li:hover {
   color: #E5EDB8;
@@ -67,5 +68,5 @@ ul li:hover {
   /* Internet Explorer/Edge */
   user-select: none;
   /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+                        supported by Chrome and Opera */
 }
