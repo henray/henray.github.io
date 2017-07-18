@@ -6,7 +6,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 .main {
   display: flex;
@@ -47,6 +46,7 @@ nav {
   height: 50px;
   margin-top: 10px;
   border-radius: 8px;
+  text-align: center;
 }
 ul {
   list-style-type: none;
