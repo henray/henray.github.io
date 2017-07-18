@@ -12,6 +12,7 @@ html, body {
    display: flex;
    justify-content:center;
    align-items:center;
+   overflow:hidden;
 }
 
 .main {
@@ -19,6 +20,7 @@ html, body {
     justify-content:center;
     align-items:center;
     flex-wrap: wrap;
+    height: 100%;
     min-width: 600px;
     max-width: 600px;
 }
@@ -59,6 +61,7 @@ nav {
 
 ul {
     list-style-type:none;
+    cursor: default;
     li {
         display:inline;
         color: @green;
