@@ -36,6 +36,9 @@ body {
   margin-top: 10px;
   color: #ADB85F;
 }
+.greeting:hover {
+  cursor: pointer;
+}
 nav {
   background-color: #5A3D31;
   width: 100%;
@@ -54,6 +57,7 @@ ul li {
 }
 ul li:hover {
   color: #E5EDB8;
+  cursor: pointer;
 }
 .noselect {
   -webkit-touch-callout: none;
