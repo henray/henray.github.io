@@ -37,7 +37,7 @@ body {
   color: #ADB85F;
 }
 .greeting:hover {
-  cursor: pointer;
+  cursor: default;
 }
 nav {
   background-color: #5A3D31;
@@ -49,6 +49,7 @@ nav {
 }
 ul {
   list-style-type: none;
+  padding: 4.8%;
 }
 ul li {
   display: inline;
