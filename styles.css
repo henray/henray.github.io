@@ -49,12 +49,13 @@ nav {
 }
 ul {
   list-style-type: none;
-  padding: 4.8%;
 }
 ul li {
   display: inline;
   color: #ADB85F;
   font-family: 'Cinzel', serif;
+  font-size: 19px;
+  padding: 3.5%;
 }
 ul li:hover {
   color: #E5EDB8;
