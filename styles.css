@@ -45,5 +45,7 @@ nav {
 }
 ul {
   list-style-type: none;
-  display: inline-block;
+}
+ul li {
+  display: inline;
 }
