@@ -17,7 +17,7 @@ body {
   max-width: 600px;
 }
 .hello {
-  width: 100%;
+  width: 80%;
   color: #ADB85F;
 }
 .round {
@@ -46,18 +46,17 @@ nav {
   height: 50px;
   margin-top: 10px;
   border-radius: 8px;
-  text-align: center;
 }
 ul {
   list-style-type: none;
   cursor: default;
+  text-align: center;
 }
 ul li {
   display: inline;
   color: #ADB85F;
   font-family: 'Cinzel', serif;
   font-size: 19px;
-  padding: 3.5%;
 }
 ul li:hover {
   color: #E5EDB8;
