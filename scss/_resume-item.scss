@@ -1,0 +1,60 @@
+section.resume-section {
+  border-bottom: 1px solid $gray-300;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  .resume-item {
+    .resume-content {
+    }
+    .resume-date {
+      min-width: auto;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+    .resume-item {
+      .resume-content {
+      }
+      .resume-date {
+        min-width: 18rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+#carousel {
+  background: $black;
+  .carousel-inner {
+    .carousel-item {
+      text-align:center;
+      img {
+        height: 500px !important;
+      }
+      .carousel-caption {
+        & > * {
+          color: orangered;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 650px) {
+  #carousel {
+    .carousel-inner {
+      .carousel-item {
+        img {
+          height: 80vh !important;
+        }
+      }
+    }
+  }
+}

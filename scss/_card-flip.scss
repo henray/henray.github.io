@@ -1,0 +1,78 @@
+/* Flip Cards CSS */
+
+.card-container {
+  display: grid;
+  perspective: 700px;
+  -webkit-perspective: 700px;
+  -moz-perspective: 700px;
+}
+
+.card-flip {
+  display: grid;
+  grid-template: 1fr / 1fr;
+  grid-template-areas: "frontAndBack";
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
+  background: inherit;
+  div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    background: inherit;
+    border: none;
+  }
+}
+
+.front {
+  grid-area: frontAndBack;
+}
+
+.back {
+  grid-area: frontAndBack;
+  transform: rotate3d(-2,1, 0,-180deg);
+}
+
+.card-container:hover .card-flip {
+  transform: rotate3d(-2,1, 0,180deg);
+
+}
+
+.img-dog-card {
+  width: 16rem;
+  height: 16rem;
+  //border: 0.1rem solid $blue;
+}
+
+// On click card-flip
+
+.clickable-card-container {
+  display: grid;
+  cursor: pointer;
+  perspective: 700px;
+  -webkit-perspective: 700px;
+  -moz-perspective: 700px;
+  &.flipped .flipper {
+    transform: rotateX(180deg);
+  }
+}
+
+.flipper {
+  display: grid;
+  grid-template: 1fr / 1fr;
+  grid-template-areas: "frontAndBack";
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
+  background: inherit;
+  div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    background: inherit;
+    border: none;
+  }
+}
+.clickable-front {
+  grid-area: frontAndBack;
+}
+.clickable-back {
+  grid-area: frontAndBack;
+  transform: rotateX(-180deg);
+}
